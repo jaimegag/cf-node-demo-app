@@ -3,4 +3,5 @@ applications:
 - name: node-example-app
   memory: 256M
   instances: 1
+  buildpack: nodejs_buildpack
   path: .
